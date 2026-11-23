@@ -25,9 +25,9 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[auto] lg:min-h-screen flex items-center justify-center pt-28 pb-14 sm:pt-32 sm:pb-16 lg:py-0 overflow-hidden"
+      className="relative min-h-[100dvh] flex items-center justify-center pt-24 pb-8 sm:pt-32 sm:pb-16 lg:py-0 overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-16 w-full grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center pt-0 lg:pt-12">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-16 w-full grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-8 items-center pt-0 lg:pt-12 my-auto">
         
         {/* PHOTO COLUMN: On mobile it is ORDER-1 (Top), on desktop it is ORDER-2 (Right) */}
         <div className="order-1 lg:order-2 lg:col-span-5 relative flex justify-center items-center py-2 lg:py-0 animate-fade-in-scale animation-delay-200">
